@@ -30,8 +30,8 @@ load_env_file()
 
 
 SECRET_KEY = os.environ.get("SECRET_KEY", "your_secret_key")
-FRONTEND_URL = os.environ.get("FRONTEND_URL", "http://localhost:3000")
-BACKEND_URL = os.environ.get("BACKEND_URL", "http://localhost:8000")
+FRONTEND_URL = os.environ.get("FRONTEND_URL", "https://cyberhubofficial.dpdns.org")
+BACKEND_URL = os.environ.get("BACKEND_URL", "https://railwayback-production-d3fc.up.railway.app")
 
 app = FastAPI(title="Cyber Defense Backend")
 
